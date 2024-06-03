@@ -7,7 +7,8 @@ These are some of the python modules that are required to run the script which c
 
 # Install this using ths commands
 ```bash 
-pip install face_recognition bash```
+pip install face_recognition bash
+```
 
 
 
