@@ -7,11 +7,10 @@ These are some of the python modules that are required to run the script which c
 
 # Install this using ths commands
 ```bash 
-pip install face_recognition```
+pip install face_recognition
 
-```bash
-pip install opencv-python```
-
+pip install opencv-python ```bash
 
 
-#If face_recognition module shows an error for Error loading CMake then please install CMake
+
+# If face_recognition module shows an error for Error loading CMake then please install CMake
