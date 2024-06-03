@@ -2,8 +2,8 @@ Here are some of the steps for Installing this Service created by me
 
 
 These are some of the python modules that are required to run the script which can then be embedded into and web Application
-`pip install face_recognition`
-`pip install opencv-python`
+`face_recognition`
+`opencv-python`
 
 # Install this using this commands
 ```bash 
