@@ -5,7 +5,7 @@ These are some of the python modules that are required to run the script which c
 `pip install face_recognition`
 `pip install opencv-python`
 
-# Install this using ths commands
+# Install this using this commands
 ```bash 
 pip install face_recognition
 ```
