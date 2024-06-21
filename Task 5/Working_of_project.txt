@@ -1,0 +1,23 @@
+Testing the Application
+You can use tools like curl, Postman, or any other HTTP client to test the endpoints:
+
+Login to Get a Token:
+curl -u user:password http://localhost:5000/login
+
+Encrypt Card Data:
+curl -X POST -H "Content-Type: application/json" -d '{"card_data":"1234 5678 9012 3456"}' http://localhost:5000/encrypt
+
+Decrypt Card Data:
+curl -X POST -H "Content-Type: application/json" -d '{"nonce":"...","ciphertext":"...","tag":"...","key":"..."}' http://localhost:5000/decrypt
+
+Tokenize Card Data:
+curl -X POST -H "Content-Type: application/json" -d '{"card_data":"1234 5678 9012 3456"}' http://localhost:5000/tokenize
+
+Detokenize Card Data:
+curl -X POST -H "Content-Type: application/json" -d '{"token":"...","key":"..."}' http://localhost:5000/detokenize
+
+Securely Store Tokenized Data:
+curl -X POST -H "Content-Type: application/json" -H "x-access-token: your_jwt_token" -d '{"card_data":"1234 5678 9012 3456"}' http://localhost:5000/secure-token
+
+Securely Retrieve Tokenized Data:
+curl -X POST -H "Content-Type: application/json" -H "x-access-token: your_jwt_token" -d '
